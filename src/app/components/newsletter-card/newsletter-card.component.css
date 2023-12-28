@@ -1,0 +1,74 @@
+.container__newsletter-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+/* CONTAINER__NEWSLETTER-CARD-IMAGE */
+.newsletter-card__image img {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+/* NEWSLETTER-CARD__DETAILS */
+
+.newsletter-card__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.newsletter-card__details-text{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: left;
+  padding: auto;
+  position: relative;
+}
+
+.newsletter-card__details-text h1 {
+  font-size: 30px;
+}
+
+.newsletter-card__details-text h2 {
+  font-size: 23px;
+}
+
+.newsletter-card__details-text p {
+  text-align: left;
+  opacity: 0.7;
+  max-width: 600px;
+}
+
+.newsletter-card__details-subscribe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 2.5rem;
+  border: 3px solid #FFF3FB;
+  align-items: center;
+}
+
+.newsletter-card__details-subscribe input {
+  border: none;
+  padding: .25rem;
+  text-align: center;
+}
+
+.newsletter-card__details-subscribe button{
+  color: white;
+  border: none;
+  background-color: #F532B9;
+  border-radius: .150rem;
+  height: 30px;
+  width: 100px;
+}
