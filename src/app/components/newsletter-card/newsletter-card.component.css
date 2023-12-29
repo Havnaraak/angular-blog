@@ -6,14 +6,17 @@
 }
 
 /* CONTAINER__NEWSLETTER-CARD-IMAGE */
-.newsletter-card__image img {
-  height: 500px;
-  width: 100%;
+.newsletter-card__image {
+  display: flex;
   position: relative;
 }
 
-/* NEWSLETTER-CARD__DETAILS */
+.newsletter-card__image img {
+  height: 100%;
+  width: 100%;
+}
 
+/* NEWSLETTER-CARD__DETAILS */
 .newsletter-card__details {
   display: flex;
   flex-direction: column;
@@ -61,14 +64,17 @@
 .newsletter-card__details-subscribe input {
   border: none;
   padding: .25rem;
-  text-align: center;
+  text-align: left;
+  height: 100%;
+  width: 100%;
 }
 
 .newsletter-card__details-subscribe button{
   color: white;
   border: none;
   background-color: #F532B9;
+  margin-right: 0.250rem;
   border-radius: .150rem;
   height: 30px;
-  width: 100px;
+  width: 35%;
 }
